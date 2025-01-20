@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #006d77, #83c5be);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #006d77;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006d77;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #004c54;
+    }
+
+p {
+    margin: 15px 0 0;
+    font-size: 0.9em;
+}
+
+a {
+    color: #006d77;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+/* Back Button Style */
+.back-btn {
+    display: block;
+    margin: 20px auto 0; /* Add space above the button */
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    color: #006d77;
+    border: 2px solid #006d77;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .back-btn:hover {
+        background-color: #006d77;
+        color: #ffffff;
+    }
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
